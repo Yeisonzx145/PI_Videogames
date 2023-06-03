@@ -1,0 +1,52 @@
+.fil{
+    width: 40%;
+    position: absolute;
+}
+.selc select{
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+.selc select:-ms-expand {
+    display: none;
+}
+.selc{
+	max-width: 250px;
+	position: relative;
+}
+.selc select{
+	display: inline-block;
+	width: 70%;
+	cursor: pointer;
+  	padding: 2px 2px;
+  	height: 25px;
+  	outline: 0; 
+  	border: 2px;
+	background: transparent;
+	color: white;
+	font-size: 0.8em;
+	color: white;
+	border:2px solid #008CBA;
+    position: relative;
+    transition: all 0.25s ease;
+}
+.selc select:hover{
+	background: #008CBA;
+}
+
+.selc select,option{
+    background: transparent;
+}
+
+.bt{
+    width: 3em;
+    height: 1.8em;
+    position: absolute;
+    right: 5%;
+    background-color: transparent;
+    border: 2px solid #008CBA;
+    color: white;
+}
+.bt:hover{
+    background-color: #008CBA;
+}

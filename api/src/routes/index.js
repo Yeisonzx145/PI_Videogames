@@ -1,12 +1,13 @@
 const { Router } = require('express');
-// Importar todos los routers;
-// Ejemplo: const authRouter = require('./auth.js');
-
-
 const router = Router();
+const videoRouters = require('./videoRouters')
+const genresRouters = require('./genresRouters')
+const platformsRouters = require('./platformsRouters')
+const pagoPaypal = require('./pagoPaypal')
 
-// Configurar los routers
-// Ejemplo: router.use('/auth', authRouter);
-
+router.use('/videogames', videoRouters);
+router.use('/genres',genresRouters);
+router.use('/platforms',platformsRouters)
+router.use('/pago',pagoPaypal)
 
 module.exports = router;

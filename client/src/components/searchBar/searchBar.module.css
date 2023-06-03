@@ -1,0 +1,35 @@
+.Search{
+    width: 50%;
+    height: 1.5em;
+    position: relative;
+    left: 40%;
+    top: -4.5em;
+    padding: 1em;
+}
+.in{
+    background-color: transparent;
+    width: 30em;
+    height: 2em;
+    border: 2px solid #008CBA;
+    border-radius: 5px;
+    position: absolute;
+    left: 0%;
+    top: 22%;
+    color: white;
+}
+.bt{
+    background-color: transparent;
+    width: 5em;
+    height: 2em;
+    position: absolute;
+    right: 25%;
+    top: 22%;
+    border: 2px solid #008CBA;
+    color: white;
+    transition-duration: 0.4s;
+}
+.bt:hover{
+    background-color: #008CBA;
+    color: white;
+    font-size: medium;
+}

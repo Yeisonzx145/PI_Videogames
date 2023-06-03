@@ -1,0 +1,19 @@
+.Contenedor{
+    display: flex;
+    justify-content: space-around;
+    margin: 1em;
+    padding: 1em;
+    width: 20%;
+    position: relative;
+    left: 12%;
+}
+.text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: #008CBA;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+.text:hover{
+    color: #41c7f3;
+}
